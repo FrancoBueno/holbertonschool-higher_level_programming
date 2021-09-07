@@ -1,0 +1,6 @@
+#!/usr/bin/python3
+for numereanos in range(100):
+    coma = "\n"
+if (numereanos < 99):
+    coma = ", "
+print("{:02d}{}".format(numereanos, coma), end="")
