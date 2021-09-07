@@ -8,6 +8,6 @@ else:
 restoneg = 0
 if resto != 0:
   restoneg = "less than 6 and not 0"
-  if resto > 5:
-    restoneg = "greather than 5"
+if resto > 5:
+  restoneg = "greather than 5"
 print("Last digit of {} is {} is {}".format(number, resto, restoneg))
