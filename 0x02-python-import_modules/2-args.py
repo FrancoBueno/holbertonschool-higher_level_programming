@@ -1,10 +1,10 @@
-#!/usr/bin/python3
+BB#!/usr/bin/python3
 from sys import argv
 if __name__ == "__main__":
     if len(argv) == 1:
-        print("0 arguments.")
+        print("0 argument.")
     if len(argv) == 2:
-        print("1 arguments:")
+        print("1 argument:")
         print("1: {:s}".format(argv[1]))
     if len(argv) == 3:
         print("2 arguments:")
