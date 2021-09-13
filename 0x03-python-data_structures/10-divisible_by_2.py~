@@ -1,0 +1,6 @@
+#!/usr/bin/python3
+def divisible_by_2(my_list=[]):
+    div = []
+    for i in my_list:
+        i.append(bool(ele % 2 == 0))
+    return i
