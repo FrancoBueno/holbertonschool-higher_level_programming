@@ -4,5 +4,5 @@
 
 class Square:
     "prainta"
-    def __init__(self,size):
+    def __init__(self, size):
         self.size__ = size
