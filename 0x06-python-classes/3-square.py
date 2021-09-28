@@ -1,5 +1,9 @@
 #!/usr/bin/python3
+"Square level 3"
+
+
 class Square:
+    """ Square Create"""
     def __init__(self, size=0):
         if type(size) is not int:
             raise TypeError("size must be an integer")
@@ -9,5 +13,6 @@ class Square:
             pass
         else:
             self.__size = size
+
     def area(self):
-        return ((self.__size)** 2)
+        return ((self.__size) ** 2)
