@@ -8,7 +8,7 @@ class Square:
         """Measdas"""
         self.__size = size
         self.position = position
-
+ 
     @property
     def size(self):
         """newaeadsad adasd"""
