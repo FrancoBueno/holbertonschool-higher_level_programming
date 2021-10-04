@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """define Rectangle"""
 
+
 class Rectangle:
     def __init__(self, width=0, height=0):
         """Init Rectangle"""
@@ -30,7 +31,7 @@ class Rectangle:
 
     @property
     def height(self, value):
-        return self.__height 
+        return self.__height
 
     @height.setter
     def height(self, value):
