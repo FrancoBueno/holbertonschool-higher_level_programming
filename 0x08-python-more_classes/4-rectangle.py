@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""define Rectangle"""
+"""Create a Rectangle"""
 
 
 class Rectangle:
@@ -47,3 +47,17 @@ class Rectangle:
 
     def perimeter(self):
         return (self.__width * 2) + (self.__height * 2)
+    
+    def __str__(self):
+        i = ""
+        if self.__width == 0 or self.__height == 0:
+            return i
+        else:
+            for larg in range(self.__height):
+                for col in range(self.__width):
+                    i += '#'
+                i += '\n'
+            return i[:-1]
+
+    def __repr__(self):
+        return 'Rectangle(%s, %s)' % (self.__width, self.__height)
