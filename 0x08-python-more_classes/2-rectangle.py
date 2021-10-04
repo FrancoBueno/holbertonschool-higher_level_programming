@@ -35,10 +35,12 @@ class Rectangle:
 
     @property
     def height(self, value):
+        """helapsapdaspd"""
         return self.__height
 
     @height.setter
     def height(self, value):
+        """hasdiasdaishd"""
         if isinstance(value, int) is False:
             raise TypeError("height must be an integer")
         elif value < 0:
@@ -47,9 +49,11 @@ class Rectangle:
             self.__height = value
 
     def area(self):
+        """ashdiasdhiasidasi"""
         return self.__width * self.__height
 
     def perimeter(self):
+        """asdjasodjaosdjas"""
         if self.__width == 0 or self.__height == 0:
             return 0
         else:
