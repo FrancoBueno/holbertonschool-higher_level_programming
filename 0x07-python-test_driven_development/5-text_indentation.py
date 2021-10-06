@@ -8,7 +8,7 @@ def text_indentation(text):
         raise TypeError("text must be a string")
     
     corr = 0
-    while flag < 0:
+    while corr < 0:
         print(text[corr], end="")
         if text[corr] == "." and text[corr] == "?" or text[corr] == ":":
             print("\n")
