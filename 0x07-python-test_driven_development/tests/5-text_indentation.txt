@@ -1,0 +1,76 @@
+>>> text_indentation = __import__('5-text_indentation').text_indentation
+
+test 1:
+
+>>> text_indentation("Hola, mi nombre es Rodrigo. soy de: Uruguay. Estudio en Holberton School.")
+Hola, mi nombre es Rodrigo.
+<BLANKLINE>
+ soy de:
+<BLANKLINE>
+ Uruguay.
+<BLANKLINE>
+ Estudio en Holberton School.
+<BLANKLINE>
+<BLANKLINE>
+
+Test 2:
+
+>>> text_indentation("Hola. Casa:", "Hola? Casa.")
+Traceback (most recent call last):
+TypeError: text_indentation() takes 1 positional argument but 2 were given
+
+test 3:
+
+>>> text_indentation("Hola      .     yo      soy     Rodrigo    . y tu?   .")
+Hola      .
+<BLANKLINE>
+     yo      soy     Rodrigo    .
+<BLANKLINE>
+ y tu?
+<BLANKLINE>
+   .
+<BLANKLINE>
+<BLANKLINE>
+
+test 4:
+
+>>> text_indentation(500)
+Traceback (most recent call last):
+TypeError: text must be a string
+
+test 5:
+
+>>> text_indentation(20.4)
+Traceback (most recent call last):
+TypeError: text must be a string
+
+test 6:
+
+>>> text_indentation([2, 4, 6, 8])
+Traceback (most recent call last):
+TypeError: text must be a string
+
+test 7:
+
+>>> text_indentation("R. o. d. r. i. g. o.")
+R.
+<BLANKLINE>
+ o.
+<BLANKLINE>
+ d.
+<BLANKLINE>
+ r.
+<BLANKLINE>
+ i.
+<BLANKLINE>
+ g.
+<BLANKLINE>
+ o.
+<BLANKLINE>
+<BLANKLINE>
+
+test 8:
+
+>>> text_indentation({"Rodrigo":7, "Mato":4})
+Traceback (most recent call last):
+TypeError: text must be a string
