@@ -3,4 +3,4 @@
 class MyList(list):
     """My list new"""
     def print_sorted(self):
-        print(sorted(self))
+        return print(sorted(self))
