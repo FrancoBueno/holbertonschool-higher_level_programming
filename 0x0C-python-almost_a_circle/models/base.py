@@ -4,8 +4,11 @@
 
 class Base:
     __nb_objects = 0
+
     def __init__(self, id=None):
         """ Init constructor """
         if id is not None:
-            id = Idnew
-
+            self.id = id
+        else:
+            Base.__nb_objects += 1
+            self.id = self.__nb_objects
