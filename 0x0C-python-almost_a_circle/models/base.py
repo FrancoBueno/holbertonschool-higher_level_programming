@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Class Base """
 
+import Json
 
 class Base:
     __nb_objects = 0
