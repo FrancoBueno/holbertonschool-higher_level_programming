@@ -1,8 +1,7 @@
 #!/usr/bin/node
 // args in Javascript
 const Arguments = process.argv;
-const lengthArg = process.argv.length;
-if (lengthArg < 3) {
+if (Arguments['1']) {
   console.log('No argument');
 }
 if (Arguments['2']) {
