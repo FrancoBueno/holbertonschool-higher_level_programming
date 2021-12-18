@@ -21,5 +21,5 @@ if __name__ == '__main__':
     if objectone is not None:
         print(str(objectone.id))
     else:
-        print('Not Found')
+        print('Not found')
     sessions.close()
