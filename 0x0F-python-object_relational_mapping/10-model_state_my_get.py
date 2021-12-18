@@ -21,7 +21,7 @@ if __name__ == '__main__':
     argumento = argv[4]
     objectone = sessions.query(State).filter_by(name=argumento).first()
     if objectone is not None:
-        print(objectone.id)
+        print(str(objectone.id))
     else:
         print('Not Found')
     sessions.close()
