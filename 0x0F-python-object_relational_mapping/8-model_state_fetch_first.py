@@ -22,5 +22,5 @@ if __name__ == '__main__':
     if objectone is not None:
         print("{}: {}".format(objectone.id, objectone.name))
     else:
-        print("Nothing\n")
+        print("Nothing")
     sessions.close()
