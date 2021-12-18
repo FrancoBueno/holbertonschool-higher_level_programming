@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-
+11. Add a new state
 """
 from sqlalchemy import Integer, String, Column
 from sqlalchemy.ext.declarative import declarative_base
