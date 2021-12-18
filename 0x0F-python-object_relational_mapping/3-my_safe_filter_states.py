@@ -11,7 +11,8 @@ if __name__ == "__main__":
                          user=argv[1], passwd=argv[2], db=argv[3], port=3306)
     mouse = db.cursor()
     argumento = argv[4]
-    mouse.execute("SELECT * FROM states WHERE name LIKE %s ORDER BY id ASC", (argumento,))
+    mouse.execute("SELECT * FROM states WHERE name LIKE %s ORDER BY id ASC",
+                  (argumento,))
     fetch = mouse.fetchall()
     for idx in fetch:
         if idx[1] == argumento:
