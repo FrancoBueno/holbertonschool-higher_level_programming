@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-#What's my status? #0
+# What's my status? #0
 
 import urllib.request
 if __name__ == '__main__':
